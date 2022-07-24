@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheatsheet Basic CSS Selectors</title>
+    <link href="./Resources/CSS/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>CSS selectors</h1>
+    </header>
+    <h1>Definition</h1>
+    <p class="def">CSS selectors define the elements to which a set of CSS rules apply.</p><br>
+
+    <h2>Basic selectors</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Selector Name</th>
+          <th>Description</th>
+          <th>Syntax</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="first">Universal selector</td>
+          <td>Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces</td>
+          <td><code>*</code> <code>ns|*</code> <code>*|*</code></td>
+          <td><code>*</code>&nbsp will match all elements of the document</td>
+        </tr>
+        <tr>
+          <td class="first">Type selector</td>
+          <td>Selects all elements that have the given node name</td>
+          <td><code>elementname</code></td>
+          <td><code>input</code>&nbsp will match any <span>&#60input&#62</span> element</td>
+        </tr>
+        <tr>
+          <td class="first">Class selector</td>
+          <td>Selects all elements that have the given <code>class</code> attribute.</td>
+          <td><code>.classname</code></td>
+          <td><code>.index</code>&nbsp will match any element that has a class of "index"</td>
+        </tr>
+        <tr>
+          <td class="first">ID selector</td>
+          <td>Selects an element based on the value of its <code>id</code> attribute. There should be only one element with a given ID in a document</td>
+          <td><code>#idname</code></td>
+          <td><code>#toc</code>&nbsp will match any element that has the ID "toc"</td>
+        </tr>
+        <tr>
+          <td class="first">Attribute selector</td>
+          <td>Selects all elements that have the given attribute.</td>
+          <td><code>[attr]</code> <code>[attr=value]</code> <code>[attr~=value]</code> <code>[attr|=value]</code> <code>[attr^=value]</code> <code>[attr$=value]</code> <code>[attr*=value]</code></td>
+          <td><code>[autoplay]</code>&nbsp will match all elements that have the <code>autoplay</code>&nbsp set (to any value)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <aside>
+      <p>Beside "Basic selectors" there are "Grouping selectors", "Combinators" and "Pseudo" for more information visit</p>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">MDN Web Docs - CSS Selectors</a>
+    </aside>
+
+  </body>
+
+</html>

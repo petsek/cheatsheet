@@ -1,0 +1,54 @@
+* {
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url("./Background.jpg");
+  opacity: 0.7;
+  height: 100px;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 20px;
+  color: orangered;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.def {
+  font-size: 120%;
+}
+
+.first {
+  font-weight: bold;
+}
+
+table, th, td {
+  border-spacing: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+thead {
+  background-color: lightgray;
+  color:orangered;
+}
+
+td, th {
+  height: 30px;
+}
+
+span {
+  color: blue;
+}
+
+code {
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+aside {
+  font-style: italic;
+}
